@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: rgb(199,29,240);
+background: linear-gradient(90deg, rgba(199,29,240,1) 0%, rgba(75,0,140,1) 45%, rgba(45,0,65,1) 85%);
+}
+
+
+
+
+button {
+    width: 60px;
+    height: 60px;
+    color: #CFFF00;
+    background-color: #7c488a;
+    font-size: 25px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    border-style: solid;
+    border: none;
+    cursor: pointer;
+    box-shadow:1px 4px 10px rgba(0, 0, 0, 0.8) ;
+
+}
+
+button:hover {
+    background-color: rgba(124, 72, 138, 0.8);
+
+}
+
+button:active {
+    background-color: #412549;
+}
+
+.button-back-space {
+    display: inline-flex;
+    margin-left: 138px;
+    position: relative;
+    top: 10px;
+
+}
+
+#back-space {
+    background-color: red;
+}
+
+#back-space:hover {
+    background-color: rgb(150, 0, 0);
+}
+
+#back-space:active {
+    background-color: rgb(116, 0, 0);
+}
+
+
+
+img {
+    height: 40px;
+    margin-top: 4px;
+
+
+
+}
+
+body {
+    display: flex;
+
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 302px;
+    padding: 20px 15px 15px 15px;
+    border-radius: 15px;
+    box-shadow:1px 4px 10px rgba(0, 0, 0, 0.8) ;
+
+
+
+}
+
+h1 {
+    color: #7c488a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 15px;
+    position: relative;
+
+
+
+}
+
+.box-with {
+    height: 50px;
+    width: 100%;
+    position: relative;
+    bottom: 15px;
+    background-color: white;
+    box-shadow: 0px 18px 40px rgba(174, 195, 70, 0.35);    
+    
+
+
+}
+
+.result {
+
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    font-size: 38px;
+    font-family: 'Orbitron', sans-serif;
+    color: rgba(174, 195, 70);
+    font-weight:bolder ;
+    
+    
+
+}
+
+#igual {
+    background-color: #ad249b;
+}

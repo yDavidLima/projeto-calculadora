@@ -1,0 +1,61 @@
+CÓDIGO CHATGPT
+
+// const buttons = document.querySelectorAll(".num");
+// const resultado = document.querySelector(".result"); // <p></p>
+
+// let firstNumber = '';
+// let operator = '';
+// let secondNumber = '';
+
+// function resultScreen(event) {
+//     const buttonValue = event.target.value;
+
+//     // Se o botão clicado for um número
+//     if (!isNaN(buttonValue) || buttonValue === '.') {
+//         if (operator === '') {
+//             // Se o operador ainda não foi selecionado, armazene o número no primeiro número
+//             firstNumber += buttonValue;
+//             resultado.innerHTML = firstNumber;
+//         } else {
+//             // Caso contrário, armazene o número no segundo número
+//             secondNumber += buttonValue;
+//             resultado.innerHTML = secondNumber;
+//         }
+//     } else if (buttonValue === 'C') {
+//         // Se o botão clicado for 'C' (Clear), reinicie os valores
+//         firstNumber = '';
+//         operator = '';
+//         secondNumber = '';
+//         resultado.innerHTML = '0';
+//     } else if (buttonValue === '+' || buttonValue === '-' || buttonValue === '*' || buttonValue === '/') {
+//         // Se o botão clicado for um operador, armazene o operador
+//         operator = buttonValue;
+//     } else if (buttonValue === '=') {
+//         // Se o botão clicado for '=', realize a operação matemática e exiba o resultado
+//         const result = performOperation(); // guardou minha Função de soma
+//         resultado.innerHTML = result;
+//     }
+// }
+
+// // Função para realizar a operação matemática com base nos dois números e no operador selecionado
+// function performOperation() {
+//     const num1 = parseFloat(firstNumber);
+//     const num2 = parseFloat(secondNumber);
+
+//     switch (operator) {
+//         case '+':
+//             return num1 + num2;
+//         case '-':
+//             return num1 - num2;
+//         case '*':
+//             return num1 * num2;
+//         case '/':
+//             return num1 / num2;
+//         default:
+//             return '';
+//     }
+// }
+
+// buttons.forEach(button => {
+//     button.addEventListener("click", resultScreen);
+// });
