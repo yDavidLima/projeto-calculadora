@@ -1,10 +1,6 @@
 
 
-// Proximo passo é reecrever esse projeto e entender o que de fato foi feito, revisitar alguns conceito que foram esquecido.
-// reescrever com ajuda da AI e tirar duvidas. // CONCLUÍDO
-// mostrar o código inteiro e pedir a explicação. // 
-// rever conceitos esquecidos.
-// Revisão geral desse projeto.
+
 
 
 /* Passo 1: Importação dos elementos HTML e declaração das variáveis. */
